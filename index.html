@@ -363,18 +363,16 @@
       
         
           
-            <h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><p>  安装hexo </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+            <h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h1><h4 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 
 
 <h1 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h1><ol>
-<li><h6 id="初始化一个项目"><a href="#初始化一个项目" class="headerlink" title="初始化一个项目"></a>初始化一个项目</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
-<li><h6 id="进入项目"><a href="#进入项目" class="headerlink" title="进入项目"></a>进入项目</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
-<li><h6 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install </span><br></pre></td></tr></table></figure></li>
+<li>初始化一个项目<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
+<li>进入项目<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br></pre></td></tr></table></figure></li>
+<li>安装依赖<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install </span><br></pre></td></tr></table></figure></li>
 </ol>
-<h1 id="第三步-1"><a href="#第三步-1" class="headerlink" title="第三步"></a>第三步</h1><p>######将 Hexo 部署到 GitHub Pages</p>
-<p>使用 <a target="_blank" rel="noopener" href="https://www.travis-ci.com/">Travis CI</a> 将 Hexo 博客部署到 GitHub Pages 上。<a target="_blank" rel="noopener" href="https://www.travis-ci.com/">Travis CI</a> 对于开源 repository 是免费的，但是这意味着你的站点文件将会是公开的</p>
+<h1 id="第三步-1"><a href="#第三步-1" class="headerlink" title="第三步"></a>第三步</h1><h4 id="将-Hexo-部署到-GitHub-Pages"><a href="#将-Hexo-部署到-GitHub-Pages" class="headerlink" title="将 Hexo 部署到 GitHub Pages"></a>将 Hexo 部署到 GitHub Pages</h4><p>使用 <a target="_blank" rel="noopener" href="https://www.travis-ci.com/">Travis CI</a> 将 Hexo 博客部署到 GitHub Pages 上。<a target="_blank" rel="noopener" href="https://www.travis-ci.com/">Travis CI</a> 对于开源 repository 是免费的，但是这意味着你的站点文件将会是公开的</p>
 <ol>
 <li>新建一个 repository。如果你希望你的站点能通过域名 &lt;你的 GitHub 用户名&gt;.github.io 访问，你的 repository 应该直接命名为 &lt;你的 GitHub 用户名&gt;.github.io。</li>
 <li>将你的 Hexo 站点文件夹推送到 repository 中。默认情况下 public 目录将不会（也不应该）被推送到 repository 中，你应该检查 .gitignore 文件中是否包含 public 一行，如果没有请加上。</li>
@@ -388,7 +386,7 @@
 <li>在 GitHub 中前往你的 repository 的设置页面，修改 GitHub Pages 的部署分支为 gh-pages。</li>
 <li>前往 https://&lt;你的 GitHub 用户名&gt;.github.io 查看你的站点是否可以访问。这可能需要一些时间。</li>
 </ol>
-<h1 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h1><h6 id="设置博客主题"><a href="#设置博客主题" class="headerlink" title="设置博客主题"></a>设置博客主题</h6><p>找到你喜欢的主题clone下来，复制到themes文件夹中，在 .config.yml文件中修改theme</p>
+<h1 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h1><h4 id="设置博客主题"><a href="#设置博客主题" class="headerlink" title="设置博客主题"></a>设置博客主题</h4><p>找到你喜欢的主题clone下来，复制到themes文件夹中，在 .config.yml文件中修改theme</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">你的主题</span></span><br></pre></td></tr></table></figure>
 
 
