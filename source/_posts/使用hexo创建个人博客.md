@@ -12,7 +12,7 @@ tags:
 
 
 # 第一步 
-  安装hexo 
+  #### 安装hexo 
 
 ``` bash
 $ npm install -g hexo-cli
@@ -21,21 +21,21 @@ $ npm install -g hexo-cli
 
 
 # 第三步
-1. ###### 初始化一个项目
+1. 初始化一个项目
 ``` bash
 $ hexo init <folder>
 ``` 
-2. ###### 进入项目
+2. 进入项目
 ```bash
 $ cd <folder>
 ```
-3. ###### 安装依赖
+3. 安装依赖
 ```bash
 $ npm install 
 ```
 
 # 第三步
-######将 Hexo 部署到 GitHub Pages
+#### 将 Hexo 部署到 GitHub Pages
 
 使用 [Travis CI](https://www.travis-ci.com) 将 Hexo 博客部署到 GitHub Pages 上。[Travis CI](https://www.travis-ci.com) 对于开源 repository 是免费的，但是这意味着你的站点文件将会是公开的
 
@@ -73,7 +73,7 @@ deploy:
 11. 前往 https://<你的 GitHub 用户名>.github.io 查看你的站点是否可以访问。这可能需要一些时间。
 
 # 第四步
-###### 设置博客主题
+#### 设置博客主题
 找到你喜欢的主题clone下来，复制到themes文件夹中，在 .config.yml文件中修改theme
 
 ```yml
