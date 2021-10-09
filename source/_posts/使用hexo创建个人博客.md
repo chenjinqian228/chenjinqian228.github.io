@@ -8,12 +8,11 @@ tags:
 - hexo
 ---
 
-@import "../style/markdown.less"
 
 
 
 # 第一步 
- ###### 安装hexo 
+  安装hexo 
 
 ``` bash
 $ npm install -g hexo-cli
